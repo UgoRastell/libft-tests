@@ -11,8 +11,8 @@ Ce dépôt est **séparé du rendu** : le sujet interdit de rendre des fichiers 
 Le dossier doit être **à côté** de la libft :
 
 ```sh
-git clone <libft>       libft
-git clone <libft-tests> libft-tests
+git clone https://github.com/UgoRastell/libft.git       libft
+git clone https://github.com/UgoRastell/libft-tests.git libft-tests
 cd libft-tests
 make run            # toutes les fonctions, puis un bilan
 make run-split      # une seule fonction (test_split.c)
